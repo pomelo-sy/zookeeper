@@ -24,7 +24,8 @@ import org.apache.zookeeper.server.ExitCode;
 public class Version implements org.apache.zookeeper.version.Info {
 
     public static String getRevisionHash() {
-        return REVISION_HASH;
+//        return REVISION_HASH;
+    	return "version-hashcode";
     }
 
     public static String getBuildDate() {
